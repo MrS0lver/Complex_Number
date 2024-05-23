@@ -10,7 +10,7 @@ setup(
     author_email="bidintha2006@gmail.com",
     description="Complex Numbers",
     license="License.txt",
-    url="",
+    url="https://github.com/MrS0lver/Complex_Number",
     long_description=long_description,
     long_description_content_type="text/markdown",
 )
