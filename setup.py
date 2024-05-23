@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name = "Complex_Bidintha",
-    version="0.5",
+    version="0.6",
     packages=find_packages(),
     author="Bidintha Machahry",
     author_email="bidintha2006@gmail.com",
