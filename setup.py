@@ -1,7 +1,7 @@
 from setuptools import setup,find_packages
 with open("README.md", "r") as fh:
     long_description = fh.read()
-
+    
 setup(
     name = "Complex_Bidintha",
     version="0.6",
@@ -14,6 +14,8 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
 )
+
+
 #     long_description="""
 # The ComplexNumbers package provides a simple implementation of complex numbers in Python. The package includes a Complex class with support for basic arithmetic operations such as addition, subtraction, multiplication, and division of complex numbers. Additionally, the class provides methods for calculating the absolute value (magnitude) of a complex number and comparing complex numbers for equality and inequality.
 

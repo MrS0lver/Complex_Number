@@ -27,23 +27,18 @@ class Complex:
         return Complex(NewReal, NewImg)
     def __mod__(self, other):
         raise NotImplementedError("Modulus operation is not typically defined for complex numbers")
-
+        
     def __eq__(self, other):
         return self.real == other.real and self.img == other.img
-
+    
     def __ne__(self, other):
         return not self.__eq__(other)
-
+    
     def __abs__(self):
         return (self.real**2 + self.img**2) ** 0.5
-
     
     def __repr__(self):
         return f"Complex({self.real}, {self.img})"
-
+    
     def __str__(self):
         return f"{self.real}i + {self.img}j"
-
-num1 = Complex(10,20)
-num2 = Complex(20,40)
-print(num1 + num2)
